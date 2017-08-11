@@ -1,0 +1,48 @@
+{
+  "name": "marco-webpack2",
+  "version": "1.0.0",
+  "description": "Frontend task manager and module bundler - scaffold",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "webpack": "webpack --watch",
+    "webpack-server": "webpack-dev-server --debug --output-pathinfo",
+    "test": "webpack test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniercruz/marco-webpack2.git"
+  },
+  "keywords": [
+    "webpack2",
+    "module",
+    "bundler",
+    "taskt",
+    "manager",
+    "frontend",
+    "scaffold",
+    "workflow"
+  ],
+  "author": "jenniercruz90@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniercruz/marco-webpack2/issues"
+  },
+  "homepage": "https://github.com/jenniercruz/marco-webpack2#readme",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "ng-annotate-loader": "^0.6.1",
+    "nginject-loader": "^2.1.0",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  }
+}
